@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.ques5.app-mergeDebugResources-32:/layout/item_image.xml",
+        "source": "com.example.ques5.app-main-35:/layout/item_image.xml"
+    },
+    {
+        "merged": "com.example.ques5.app-mergeDebugResources-32:/layout/activity_image_detail.xml",
+        "source": "com.example.ques5.app-main-35:/layout/activity_image_detail.xml"
+    },
+    {
+        "merged": "com.example.ques5.app-mergeDebugResources-32:/layout/activity_image_grid.xml",
+        "source": "com.example.ques5.app-main-35:/layout/activity_image_grid.xml"
+    },
+    {
+        "merged": "com.example.ques5.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.ques5.app-main-35:/layout/activity_main.xml"
+    }
+]

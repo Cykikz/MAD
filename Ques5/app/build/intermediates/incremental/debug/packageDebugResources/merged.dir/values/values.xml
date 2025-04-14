@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FAFAFA</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="error">#F44336</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Gallery App</string>
+    <string name="back">Back</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirm">Are you sure you want to delete this image?</string>
+    <string name="delete_failed">Failed to delete image</string>
+    <string name="delete_success">Image deleted successfully</string>
+    <string name="error_saving">Error saving image</string>
+    <string name="image_saved">Image saved successfully</string>
+    <string name="my_photos">My Photos</string>
+    <string name="no_images">No images found</string>
+    <string name="permission_camera_rationale">Camera access is required to take photos</string>
+    <string name="permission_denied">Permissions denied. Some features may not work.</string>
+    <string name="permission_required">Permission required</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="view_gallery">View Gallery</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.GalleryApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

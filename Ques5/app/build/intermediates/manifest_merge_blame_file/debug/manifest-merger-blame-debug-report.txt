@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ques5"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="35" />
+9-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:5:5-7:35
+12        android:name="android.hardware.camera"
+12-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="true" />
+13-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:7:9-32
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+16-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:10:5-76
+16-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:10:22-73
+17
+18    <!-- For devices running Android 9 or lower -->
+19    <uses-permission
+19-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:13:5-14:38
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:13:22-77
+21        android:maxSdkVersion="32" />
+21-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:14:9-35
+22    <uses-permission
+22-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:15:5-16:38
+23        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+23-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:15:22-78
+24        android:maxSdkVersion="29" />
+24-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:16:9-35
+25
+26    <permission
+26-->[androidx.core:core:1.13.0] C:\Users\karan\.gradle\caches\8.10\transforms\f9e4b2d457fd70e2c3c84b7dbcd51871\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.example.ques5.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.13.0] C:\Users\karan\.gradle\caches\8.10\transforms\f9e4b2d457fd70e2c3c84b7dbcd51871\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.13.0] C:\Users\karan\.gradle\caches\8.10\transforms\f9e4b2d457fd70e2c3c84b7dbcd51871\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.example.ques5.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.13.0] C:\Users\karan\.gradle\caches\8.10\transforms\f9e4b2d457fd70e2c3c84b7dbcd51871\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.13.0] C:\Users\karan\.gradle\caches\8.10\transforms\f9e4b2d457fd70e2c3c84b7dbcd51871\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:18:5-55:19
+33        android:allowBackup="true"
+33-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:19:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.13.0] C:\Users\karan\.gradle\caches\8.10\transforms\f9e4b2d457fd70e2c3c84b7dbcd51871\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+35        android:dataExtractionRules="@xml/data_extraction_rules"
+35-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:20:9-65
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:fullBackupContent="@xml/backup_rules"
+38-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:21:9-54
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:22:9-43
+40        android:label="@string/app_name"
+40-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:23:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:24:9-54
+42        android:supportsRtl="true"
+42-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:25:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.GalleryApp" >
+44-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:26:9-48
+45        <activity
+45-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:29:9-36:20
+46            android:name="com.example.ques5.MainActivity"
+46-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:30:13-41
+47            android:exported="true" >
+47-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:31:13-36
+48            <intent-filter>
+48-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:32:13-35:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:33:17-69
+49-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:33:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:34:17-77
+51-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:34:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:38:9-40:40
+55            android:name="com.example.ques5.ImageGridActivity"
+55-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:39:13-46
+56            android:exported="false" />
+56-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:40:13-37
+57        <activity
+57-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:42:9-44:40
+58            android:name="com.example.ques5.ImageDetailActivity"
+58-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:43:13-48
+59            android:exported="false" />
+59-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:44:13-37
+60
+61        <provider
+62            android:name="androidx.core.content.FileProvider"
+62-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:47:13-62
+63            android:authorities="com.example.ques5.fileprovider"
+63-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:48:13-64
+64            android:exported="false"
+64-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:49:13-37
+65            android:grantUriPermissions="true" >
+65-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:50:13-47
+66            <meta-data
+66-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:51:13-53:54
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:52:17-67
+68                android:resource="@xml/file_paths" />
+68-->C:\Users\karan\AndroidStudioProjects\Ques5\app\src\main\AndroidManifest.xml:53:17-51
+69        </provider>
+70        <provider
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\karan\.gradle\caches\8.10\transforms\dee1869fcf3adae130b9e03778fea775\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\karan\.gradle\caches\8.10\transforms\dee1869fcf3adae130b9e03778fea775\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+72            android:authorities="com.example.ques5.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\karan\.gradle\caches\8.10\transforms\dee1869fcf3adae130b9e03778fea775\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\karan\.gradle\caches\8.10\transforms\dee1869fcf3adae130b9e03778fea775\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\karan\.gradle\caches\8.10\transforms\dee1869fcf3adae130b9e03778fea775\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\karan\.gradle\caches\8.10\transforms\dee1869fcf3adae130b9e03778fea775\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\karan\.gradle\caches\8.10\transforms\dee1869fcf3adae130b9e03778fea775\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\karan\.gradle\caches\8.10\transforms\0062bb80cd3e01b82db2898041f8300d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\karan\.gradle\caches\8.10\transforms\0062bb80cd3e01b82db2898041f8300d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\karan\.gradle\caches\8.10\transforms\0062bb80cd3e01b82db2898041f8300d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+82                android:value="androidx.startup" />
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+83        </provider>
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\karan\.gradle\caches\8.10\transforms\15036919a01116075667bded2b248a2a\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>
